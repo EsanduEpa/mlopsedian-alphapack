@@ -1,5 +1,16 @@
 .DS_Store
 
+# Python virtual environments
+env/
+.env/
+venv/
+.venv/
+
+# Python cache and notebook artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
 # Generated model-training datasets that are too large for normal Git pushes
 MLOpsedian/data/processed/train_regression_onehot_ready.csv
 MLOpsedian/data/processed/test_regression_onehot_ready.csv
