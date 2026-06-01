@@ -1,0 +1,4 @@
+version,model,alpha,cv_rmse,cv_mae,cv_r2,file,notes
+sub_v003_ridge_alpha50000,Ridge Regression,50000,0.233897,0.179644,0.015511,../submissions/sub_v003_ridge_alpha50000.csv,Best Ridge alpha from CV
+sub_v004_ridge_alpha50000_conservative_090,Ridge Regression + shrinkage,50000,,,,../submissions/sub_v004_ridge_alpha50000_conservative_090.csv,90% Ridge + 10% train mean
+sub_v005_ridge_alpha50000_conservative_095,Ridge Regression + shrinkage,50000,,,,../submissions/sub_v005_ridge_alpha50000_conservative_095.csv,95% Ridge + 5% train mean
