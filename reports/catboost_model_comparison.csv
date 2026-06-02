@@ -1,0 +1,3 @@
+version,model,features,validation,cv_rmse,cv_mae,cv_r2,public_score,rmse_vs_baseline,mae_vs_baseline,r2_vs_baseline
+sub_v006_catboost_baseline,CatBoost Baseline,66 cleaned features,Normal KFold,0.23176890534936953,0.17695452528072222,0.033350653634844754,0.38368,0.0,0.0,0.0
+sub_v008_catboost_alpha_pack,CatBoost Alpha Pack,35 selected + engineered features,Target-binned StratifiedKFold,0.23164778640435246,0.17673736118136243,0.03463008143352864,,-0.00012111894501706799,-0.00021716409935979009,0.0012794277986838826
