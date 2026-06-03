@@ -1,0 +1,6 @@
+flood_risk_score,count,percentage
+0.0-0.2 very low,2390,12.13
+0.2-0.4 low,4402,22.35
+0.4-0.6 medium,7650,38.83
+0.6-0.8 high,3353,17.02
+0.8-1.0 very high,1905,9.67
